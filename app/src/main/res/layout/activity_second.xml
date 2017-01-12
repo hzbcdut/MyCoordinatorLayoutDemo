@@ -45,5 +45,29 @@
             android:text="@string/large_text" />
     </ScrollView>
 
+    <android.support.v4.widget.Space
+        android:id="@+id/empty_mask_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮2" />
+    </LinearLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
